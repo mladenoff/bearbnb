@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: '.frontend/bearbnb.jsx',
+  entry: './frontend/bearbnb.jsx',
   output: {
     filename: './bundle.js',
   },
