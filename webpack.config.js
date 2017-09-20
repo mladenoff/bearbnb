@@ -12,12 +12,12 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: 'babel-loader',
         query: {
-          presets: ['env', 'react']
-        }
-      }
-    ]
+          presets: ['env', 'react'],
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '*']
-  }
+    extensions: ['.js', '.jsx', '*'],
+  },
 };
